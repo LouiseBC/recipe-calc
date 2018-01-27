@@ -1,0 +1,15 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+     "tslint:recommended"
+  ],
+  "jsRules": {},
+  "rules": {
+    "typedef": [true, "call-signature", "parameter"],
+    "no-unused-variable": true,
+    "no-console": false,
+    "max-line-length": false,
+    "max-classes-per-file": false,
+  },
+  "rulesDirectory": []
+}
